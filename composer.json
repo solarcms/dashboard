@@ -1,0 +1,14 @@
+{
+    "name": "solarcms/dashboard",
+    "description": "Solar CMS dashboard",
+    "type": "service",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "n0m4dz",
+            "email": "tseegii.it@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
