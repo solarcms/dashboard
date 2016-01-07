@@ -3,8 +3,9 @@
 Route::group([
     'namespace' => 'Solarcms\Dashboard\Controllers',
     'prefix' =>'solar/dashboard',
-    'as' => 'Solar.Dashboard::'], function() {
+    'as' => 'Solar.Dashboard::',
+    'middleware' => 'auth'], function() {
 
-    Route::get('/', 'DashboardController@index');
+    Route::get('/', ['as' => 'index', 'uses' => 'DashboardController@index']);
 
 });
